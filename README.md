@@ -2,6 +2,8 @@
 
 **tree-top** is a fast, interactive, terminal-based directory explorer built in Go. It provides a visual, `htop`-like interface for navigating nested filesystems, inspecting metadata, and even previewing file contents—all without leaving your terminal.
 
+![tree-top-gif](https://github.com/user-attachments/assets/3079307f-c3f0-4bc5-8be0-842dbf644a2e)
+
 ## Features
 
 - **Nested Tree View**: Expand and collapse folders to explore directories in a structured tree.
