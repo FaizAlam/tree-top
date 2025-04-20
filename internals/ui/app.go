@@ -3,6 +3,7 @@ package ui
 
 import (
 	"context"
+
 	"github.com/faizalam/tree-top/internals/explorer"
 
 	"github.com/gdamore/tcell/v2"
@@ -28,7 +29,7 @@ func NewTviewApp(service *explorer.Service) *App {
 	// setup layout
 	layout := tview.NewFlex().SetDirection(tview.FlexRow).
 		AddItem(treeView.view, 0, 1, true).
-		AddItem(detail.view, 7, 0, false)
+		AddItem(detail.view, 8, 0, false)
 
 	// capture keys for expand/collapse and preserve selection
 	treeView.view.SetInputCapture(func(event *tcell.EventKey) *tcell.EventKey {
